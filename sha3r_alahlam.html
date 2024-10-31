@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لعبة الشعر</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>لعبة شعر</h1>
+        <p>اختر الكلمات لإنشاء بيت شعري</p>
+    </header>
+    <main>
+        <div class="word-category">
+            <h2>كلمات للتعبير عن المشاعر</h2>
+            <select id="emotionWords">
+                <option value="فرح">فرح</option>
+                <option value="حزن">حزن</option>
+                <option value="حب">حب</option>
+                <option value="شوق">شوق</option>
+                <option value="ألم">ألم</option>
+            </select>
+        </div>
+        <div class="word-category">
+            <h2>كلمات للطبيعة</h2>
+            <select id="natureWords">
+                <option value="نجوم">نجوم</option>
+                <option value="أمواج">أمواج</option>
+                <option value="أشجار">أشجار</option>
+                <option value="جبال">جبال</option>
+                <option value="سماء">سماء</option>
+            </select>
+        </div>
+        <button id="generatePoem">إنشاء بيت شعري</button>
+        <h3>البيت الشعري:</h3>
+        <p id="poemLine"></p>
+    </main>
+    <footer>
+        <p>&copy; 2024 لعبة الشعر</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html><!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شاعر الأحلام</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>شاعر الأحلام</h1>
+        <p>اختر الكلمات لإنشاء بيت شعري</p>
+    </header>
+    <main>
+        <div class="word-category">
+            <h2>كلمات للتعبير عن المشاعر</h2>
+            <select id="emotionWords">
+                <option value="فرح">فرح</option>
+                <option value="حزن">حزن</option>
+                <option value="حب">حب</option>
+                <option value="شوق">شوق</option>
+                <option value="ألم">ألم</option>
+                <option value="حنين">حنين</option>
+                <option value="خوف">خوف</option>
+            </select>
+        </div>
+        <div class="word-category">
+            <h2>كلمات للطبيعة</h2>
+            <select id="natureWords">
+                <option value="نجوم">نجوم</option>
+                <option value="أمواج">أمواج</option>
+                <option value="أشجار">أشجار</option>
+                <option value="جبال">جبال</option>
+                <option value="سماء">سماء</option>
+                <option value="زهور">زهور</option>
+                <option value="ريح">ريح</option>
+            </select>
+        </div>
+        <div class="word-category">
+            <h2>كلمات أخرى</h2>
+            <select id="otherWords">
+                <option value="قمر">قمر</option>
+                <option value="ليل">ليل</option>
+                <option value="شمس">شمس</option>
+                <option value="حياة">حياة</option>
+                <option value="عشق">عشق</option>
+                <option value="حلم">حلم</option>
+                <option value="أمل">أمل</option>
+            </select>
+        </div>
+        <button id="generatePoem">إنشاء بيت شعري</button>
+        <h3>البيت الشعري:</h3>
+        <p id="poemLine"></p>
+    </main>
+    <footer>
+        <p>&copy; 2024 شاعر الأحلام</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html><!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شاعر الأحلام</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>شاعر الأحلام</h1>
+        <p>اختر الكلمات لإنشاء بيت شعري</p>
+    </header>
+    <main>
+        <!-- Theme Selector -->
+        <div>
+            <label for="themeSelect">اختر ثيم:</label>
+            <select id="themeSelect">
+                <option value="nature">طبيعة</option>
+                <option value="love">حب</option>
+                <option value="night">ليل</option>
+            </select>
+        </div>
+        
+        <!-- Word Categories -->
+        <div class="word-category">
+            <h2>كلمات للتعبير عن المشاعر</h2>
+            <select id="emotionWords">
+                <option value="فرح">فرح</option>
+                <option value="حزن">حزن</option>
+                <option value="حب">حب</option>
+                <!-- Add more options -->
+            </select>
+        </div>
+        <!-- Other Word Categories -->
+        
+        <button id="generatePoem">إنشاء بيت شعري</button>
+        <h3>البيت الشعري:</h3>
+        <p id="poemLine"></p>
+        
+        <!-- Share Button -->
+        <button id="sharePoem">شارك بيت الشعر</button>
+    </main>
+    <footer>
+        <p>&copy; 2024 شاعر الأحلام</p>
+    </footer>
+    <audio id="backgroundMusic" loop>
+        <source src="background.mp3" type="audio/mp3">
+    </audio>
+    <script src="script.js"></script>
+</body>
+</html><!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شاعر الأحلام</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>شاعر الأحلام</h1>
+        <p>اختر الكلمات لإنشاء بيت شعري</p>
+    </header>
+    <main>
+        <!-- User Profile -->
+        <div>
+            <label for="userName">أدخل اسمك:</label>
+            <input type="text" id="userName" placeholder="اسمك هنا">
+        </div>
+
+        <!-- Theme Selector -->
+        <div>
+            <label for="themeSelect">اختر ثيم:</label>
+            <select id="themeSelect">
+                <option value="nature">طبيعة</option>
+                <option value="love">حب</option>
+                <option value="night">ليل</option>
+                <option value="dream">أحلام</option>
+                <option value="sadness">حزن</option>
+            </select>
+        </div>
+        
+        <!-- Word Categories -->
+        <div class="word-category">
+            <h2>كلمات للتعبير عن المشاعر</h2>
+            <select id="emotionWords">
+                <option value="فرح">فرح</option>
+                <option value="حزن">حزن</option>
+                <option value="حب">حب</option>
+                <option value="شوق">شوق</option>
+            </select>
+        </div>
+        <div class="word-category">
+            <h2>كلمات للطبيعة</h2>
+            <select id="natureWords">
+                <option value="نجوم">نجوم</option>
+                <option value="أمواج">أمواج</option>
+                <option value="أشجار">أشجار</option>
+            </select>
+        </div>
+        <div class="word-category">
+            <h2>كلمات أخرى</h2>
+            <select id="otherWords">
+                <option value="قمر">قمر</option>
+                <option value="ليل">ليل</option>
+                <option value="شمس">شمس</option>
+            </select>
+        </div>
+        <button id="generatePoem">إنشاء بيت شعري</button>
+        <h3>البيت الشعري:</h3>
+        <p id="poemLine"></p>
+        
+        <!-- Share on Instagram -->
+        <a id="instagramLink" href="https://www.instagram.com/es.salim.01/profilecard/?igsh=MTZjZjc0cTZjMG12aA==" target="_blank">تابعني على إنستجرام</a>
+    </main>
+    <footer>
+        <p>&copy; 2024 شاعر الأحلام</p>
+    </footer>
+    <audio id="backgroundMusic" loop>
+        <source src="background.mp3" type="audio/mp3">
+    </audio>
+    <audio id="poemSound">
+        <source src="poem_sound.mp3" type="audio/mp3">
+    </audio>
+    <script src="script.js"></script>
+</body>
+</html<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شاعر الأحلام</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        input, select, button {
+            padding: 10px;
+            margin: 10px;
+            font-size: 16px;
+            width: 80%;
+        }
+        .poem {
+            margin-top: 20px;
+            font-size: 24px;
+            color: #4CAF50;
+        }
+        .reaction {
+            margin-top: 10px;
+            font-size: 22px;
+            color: #FF5722; /* Reaction color */
+        }
+    </style>
+</head>
+<body>
+    <h1>شاعر الأحلام</h1>
+    <input type="text" id="name" placeholder="أدخل اسمك">
+    <select id="emotion">
+        <option value="فرح">فرح</option>
+        <option value="حزن">حزن</option>
+        <option value="حب">حب</option>
+    </select>
+    <select id="nature">
+        <option value="نجوم">نجوم</option>
+        <option value="أمواج">أمواج</option>
+    </select>
+    <select id="otherWord">
+        <option value="قمر">قمر</option>
+    </select>
+    <button onclick="generatePoem()">إنشاء بيت شعري</button>
+    <div class="poem" id="poem"></div>
+    <div class="reaction" id="reaction"></div>
+
+    <script>
+        const reactions = ['جميل!', 'رائع!', 'مذهل!', 'أحببت هذا!', 'مؤثر!'];
+
+        function generatePoem() {
+            const name = document.getElementById('name').value || 'الشاعر';
+            const emotion = document.getElementById('emotion').value;
+            const nature = document.getElementById('nature').value;
+            const otherWord = document.getElementById('otherWord').value;
+
+            const poem = `${name} يقول: في القلب ${emotion} مثل ${nature} تحت ${otherWord}`;
+            document.getElementById('poem').innerText = poem;
+
+            // Select a random reaction
+            const randomReaction = reactions[Math.floor(Math.random() * reactions.length)];
+            document.getElementById('reaction').innerText = randomReaction;
+        }
+    </script>
+</body>
+</html><audio id="backgroundMusic" loop>
+    <source src="your-music-file.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+<script>
+    window.onload = function() {
+        document.getElementById('backgroundMusic').play();
+    }
+</script>
